@@ -129,12 +129,12 @@ const education = {
     {
       institution: "Benazir Bhutto Shaheed University, Lyari, Karachi",
       degree: "Graduation (Computer Science)",
-      duration: "2020 2024",
+      duration: "2020 - 2024",
     },
     {
       institution:
         "Govt. Degree College of Boys Science & Commerce, Lyari, Karachi.",
-      degree: "Intermediate (Pre-Engineering)",
+      degree: `Intermediate (Pre-Engineering)`,
       duration: "2018 - 2019",
     },
     {
@@ -208,7 +208,7 @@ const About = () => {
                       <li key={index}>
                         <TooltipProvider delayDuration={100}>
                           <Tooltip>
-                            <TooltipTrigger className="w-full h-[150px] bg-secondary rounded-xl flex flex-col justify-center items-center group">
+                            <TooltipTrigger className="w-full h-[130px] bg-secondary rounded-xl flex flex-col justify-center items-center group">
                               <div className="text-5xl group-hover:text-accent transition-all duration-300">
                                 {skill.icon}
                               </div>
@@ -243,7 +243,7 @@ const About = () => {
                       return (
                         <li
                           key={index}
-                          className="bg-secondary h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start"
+                          className="bg-secondary h-[184px] py-6 px-7 rounded-xl flex flex-col justify-center items-center lg:items-start"
                         >
                           <span className="text-accent">{item.duration}</span>
                           <h3 className="max-w-[260px] min-h-[60px] flex items-center justify-center">
