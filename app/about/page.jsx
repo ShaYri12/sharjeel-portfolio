@@ -128,19 +128,20 @@ const education = {
     "Solid academic foundation in computer science, enhanced by specialized certifications.",
   items: [
     {
-      institution: "Coursera",
-      degree: "Meta Front-End Developer Certificate",
-      duration: "2023",
+      institution: "Benazir Bhutto Shaheed University, Lyari, Karachi",
+      degree: "Computer Science",
+      duration: "2020 20246",
     },
     {
-      institution: "Miami Dade College",
-      degree: "Associate Degree in Computer Science",
-      duration: "2016 - 2018",
+      institution:
+        "Govt. Degree College of Boys Science & Commerce, Lyari, Karachi.",
+      degree: "Pre-Engineering",
+      duration: "2018 - 2019",
     },
     {
-      institution: "Miami Dade College",
-      degree: "PHI THETA KAPPA Honor Society",
-      duration: "2015",
+      institution: "Happy Kids English Secondary School, Lyari, Karachi.",
+      degree: "Science",
+      duration: "2006 - 2018",
     },
     {
       institution: "UCI (Cuba)",
