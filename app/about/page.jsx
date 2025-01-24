@@ -143,11 +143,6 @@ const education = {
       degree: "Science",
       duration: "2006 - 2018",
     },
-    {
-      institution: "UCI (Cuba)",
-      degree: "Engineering in Computer Science",
-      duration: "2010 - 2013",
-    },
   ],
 };
 
