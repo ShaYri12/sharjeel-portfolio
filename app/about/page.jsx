@@ -124,23 +124,22 @@ const skills = {
 const education = {
   icon: "/assets/about/cap.svg",
   title: "My education",
-  description:
-    "Solid academic foundation in computer science, enhanced by specialized certifications.",
+  description: "",
   items: [
     {
       institution: "Benazir Bhutto Shaheed University, Lyari, Karachi",
-      degree: "Computer Science",
-      duration: "2020 20246",
+      degree: "Graduation (Computer Science)",
+      duration: "2020 2024",
     },
     {
       institution:
         "Govt. Degree College of Boys Science & Commerce, Lyari, Karachi.",
-      degree: "Pre-Engineering",
+      degree: "Intermediate (Pre-Engineering)",
       duration: "2018 - 2019",
     },
     {
       institution: "Happy Kids English Secondary School, Lyari, Karachi.",
-      degree: "Science",
+      degree: "Matriculation (Science)",
       duration: "2006 - 2018",
     },
   ],
@@ -251,8 +250,6 @@ const About = () => {
                             {item.degree}
                           </h3>
                           <div className="flex items-center gap-3">
-                            {/* dot */}
-                            <span className="w-[6px] h-[6px] rounded-full bg-accent"></span>
                             <p className="text-white/60">{item.institution}</p>
                           </div>
                         </li>
