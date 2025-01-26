@@ -26,7 +26,7 @@ const Home = () => {
             <Photo />
           </div>
           {/* text */}
-          <div className="flex flex-col gap-4 w-auto max-w-[380px] text-center xl:text-left">
+          <div className="flex flex-col gap-4 w-auto max-w-[442px] text-center xl:text-left">
             {/* hello */}
             <motion.div
               variants={fadeIn("down", 1)}
@@ -49,8 +49,10 @@ const Home = () => {
               className="p text-white/80"
             >
               <p>
-                A dedicated developer who shapes ideas into interactive web
-                experiences, while sipping coffee on a glorious day.
+                I’m a Full-Stack Web Developer with a passion for creating
+                functional and visually appealing web applications. I love
+                turning ideas into interactive experiences that help people and
+                businesses grow.
               </p>
             </motion.div>
             {/* take action */}
@@ -61,7 +63,7 @@ const Home = () => {
               viewport={{ once: false, amount: 0.2 }}
               className="h3 leading-normal"
             >
-              Let's build something extraordinary together!
+              Let's make something amazing together!
             </motion.h3>
             {/* btn and socials */}
             <div className="flex flex-col xl:flex-row items-center justify-center xl:items-center xl:justify-start gap-6 pt-2">

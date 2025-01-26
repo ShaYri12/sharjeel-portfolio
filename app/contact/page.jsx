@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 import { motion } from "framer-motion";
 import Swal from "sweetalert2";
@@ -33,7 +33,9 @@ const info = [
 ];
 
 const Contact = () => {
-  const formRef = useRef(null); // Create a reference for the form
+  const formRef = useRef(null);
+  const [isLoading, setIsLoading] = useState(false);
+  const [submitMessage, setSubmitMessage] = useState("");
 
   async function handleSubmit(event) {
     event.preventDefault();
@@ -53,7 +55,7 @@ const Contact = () => {
       return;
     }
 
-    // Validate email format (extra layer)
+    // Validate email format
     const email = formData.get("email");
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailRegex.test(email)) {
@@ -65,33 +67,45 @@ const Contact = () => {
       return;
     }
 
-    // Proceed with form submission
-    formData.append("access_key", "c83ad2be-7bc5-4273-9457-6524f5deda36");
-    const json = JSON.stringify(Object.fromEntries(formData));
+    setIsLoading(true);
+    setSubmitMessage("");
 
-    const response = await fetch("https://api.web3forms.com/submit", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json",
-      },
-      body: json,
-    });
+    // Prepare the form data to send to the API
+    const formDataObj = {
+      name: formData.get("name"),
+      email: email,
+      message: formData.get("message"),
+    };
 
-    const result = await response.json();
-    if (result.success) {
-      Swal.fire({
-        title: "Success!",
-        text: "Message sent successfully!",
-        icon: "success",
+    try {
+      // Send data to the API route
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formDataObj),
       });
-      formRef.current.reset(); // Reset the form
-    } else {
-      Swal.fire({
-        title: "Error!",
-        text: "Something went wrong. Please try again.",
-        icon: "error",
-      });
+
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+
+      const result = await response.json();
+
+      if (result.success) {
+        setSubmitMessage("Thank you! Your message has been sent successfully.");
+        formRef.current.reset();
+      } else {
+        setSubmitMessage(
+          result.message || "Something went wrong. Please try again."
+        );
+      }
+    } catch (error) {
+      console.error("Error submitting form:", error);
+      setSubmitMessage("Something went wrong. Please try again.");
+    } finally {
+      setIsLoading(false);
     }
   }
 
@@ -117,31 +131,29 @@ const Contact = () => {
             {/* info */}
             <div className="h-full flex flex-col items-center justify-center rounded-xl p-8 bg-black/10 text-white">
               <ul className="flex flex-col gap-[30px]">
-                {info.map((item, index) => {
-                  return (
-                    <li key={index} className="flex items-center gap-6">
-                      <div
-                        className="w-12 h-12 bg-secondary text-accent rounded-full flex items-center justify-center cursor-pointer hover:bg-accent hover:text-primary transition-all duration-500"
-                        onClick={item.action}
-                      >
-                        <div className="text-xl">{item.icon}</div>
-                      </div>
-                      <div className="flex-1">
-                        <p className="uppercase text-accent">{item.title}</p>
-                        <h3 className="text-base uppercase text-white/60">
-                          {item.description}
-                        </h3>
-                      </div>
-                    </li>
-                  );
-                })}
+                {info.map((item, index) => (
+                  <li key={index} className="flex items-center gap-6">
+                    <div
+                      className="w-12 h-12 bg-secondary text-accent rounded-full flex items-center justify-center cursor-pointer hover:bg-accent hover:text-primary transition-all duration-500"
+                      onClick={item.action}
+                    >
+                      <div className="text-xl">{item.icon}</div>
+                    </div>
+                    <div className="flex-1">
+                      <p className="uppercase text-accent">{item.title}</p>
+                      <h3 className="text-base uppercase text-white/60">
+                        {item.description}
+                      </h3>
+                    </div>
+                  </li>
+                ))}
               </ul>
             </div>
           </div>
           {/* form */}
           <div className="w-full max-w-[500px]">
             <form
-              ref={formRef} // Attach the reference to the form
+              ref={formRef}
               onSubmit={handleSubmit}
               className="flex flex-col gap-6 p-8 bg-secondary rounded-xl"
             >
@@ -161,9 +173,25 @@ const Contact = () => {
                 placeholder="Type your message here!"
                 required
               />
-              <Button type="submit" className="max-w-40 uppercase">
-                Send email
+              <Button
+                type="submit"
+                className="max-w-40 uppercase"
+                disabled={isLoading}
+              >
+                {isLoading ? "Submitting..." : "Send email"}
               </Button>
+              {submitMessage && (
+                <p
+                  className={`text-center ${
+                    submitMessage.toLowerCase().includes("error") ||
+                    submitMessage.toLowerCase().includes("wrong")
+                      ? "text-red-500"
+                      : "text-green-500"
+                  }`}
+                >
+                  {submitMessage}
+                </p>
+              )}
             </form>
           </div>
         </div>

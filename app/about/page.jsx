@@ -30,7 +30,7 @@ import {
 const about = {
   title: "About me",
   description:
-    "Driven by curiosity and perseverance, I am passionate about developing intuitive software that brings value to the world. I believe in the power of technology to bridge gaps, spark positive change, and empower users to achieve their goals.",
+    "I'm a Full Stack Web Developer with a passion for creating clean, functional, and user-friendly websites. With a strong foundation in both front-end and back-end technologies, I focus on building seamless experiences that make a real impact. I’m always eager to take on new challenges and leverage technology to solve problems and bring innovative ideas to life. My goal is to continue growing as a developer while delivering meaningful solutions that users can rely on.",
   info: [
     {
       fieldName: "Name",
@@ -63,7 +63,7 @@ const about = {
 const skills = {
   title: "My skills",
   description:
-    "Adept in the JavaScript ecosystem, I work with modern frameworks and tools to build fast and visually engaging web applications that deliver seamless user experiences.",
+    "With a strong command of JavaScript and its modern frameworks, I create dynamic, user-friendly web applications. I'm passionate about leveraging the latest technologies to build fast, responsive, and visually engaging solutions.",
   skillList: [
     {
       icon: <FaReact />,
@@ -184,7 +184,7 @@ const About = () => {
                           <span className="text-accent uppercase">
                             {item.fieldName}
                           </span>
-                          <h3 className="text-base uppercase text-white/80">
+                          <h3 className="text-base capitalize text-white/80">
                             {item.fieldValue}
                           </h3>
                         </li>
