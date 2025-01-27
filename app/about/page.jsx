@@ -173,7 +173,7 @@ const About = () => {
                   <h3 className="h3">{about.title}</h3>
                   <p className="p">{about.description}</p>
                 </div>
-                <ScrollArea className="h-[400px]">
+                <ScrollArea className="min-h-[400px]">
                   <ul className="grid grid-cols-1 md:grid-cols-2 gap-[30px]">
                     {about.info.map((item, index) => {
                       return (
@@ -237,7 +237,7 @@ const About = () => {
                   <h3 className="h3">{education.title}</h3>
                   <p className="p">{education.description}</p>
                 </div>
-                <ScrollArea className="h-[400px]">
+                <ScrollArea className="min-h-[400px]">
                   <ul className="grid grid-cols-1 lg:grid-cols-2 gap-[30px]">
                     {education.items.map((item, index) => {
                       return (
