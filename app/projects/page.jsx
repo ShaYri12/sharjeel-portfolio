@@ -181,6 +181,22 @@ const projects = [
   },
   {
     num: "15",
+    category: "fullstack",
+    title: "Travel World",
+    description:
+      "It makes exploring easy – discover exciting tours, check out our services, book your trips in minutes, and manage all your bookings.",
+    stack: [
+      { name: "React.js" },
+      { name: "MongoDB" },
+      { name: "Express.js" },
+      { name: "BootstrapCSS" },
+    ],
+    image: "/assets/projects/travel-world.png",
+    live: "https://tour-management-htux.vercel.app/",
+    github: "https://github.com/ShaYri12/tour-management",
+  },
+  {
+    num: "16",
     category: "frontend",
     title: "BusyBucket.io",
     description:
@@ -191,7 +207,7 @@ const projects = [
     github: "https://github.com/ShaYri12/busy-bucket-io",
   },
   {
-    num: "16",
+    num: "17",
     category: "frontend",
     title: "Credit SaaS DIY",
     description:
