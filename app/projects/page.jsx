@@ -182,6 +182,22 @@ const projects = [
   {
     num: "15",
     category: "fullstack",
+    title: "Fast Food",
+    description:
+      "A fast food website where users can browse, order, and manage their cart, while admins can manage foods and users with full control.",
+    stack: [
+      { name: "React.js" },
+      { name: "MongoDB" },
+      { name: "Express.js" },
+      { name: "BootstrapCSS" },
+    ],
+    image: "/assets/projects/fast-food.png",
+    live: "https://fast-food-gamma.vercel.app/",
+    github: "https://github.com/ShaYri12/Fast-Food",
+  },
+  {
+    num: "16",
+    category: "fullstack",
     title: "Travel World",
     description:
       "It makes exploring easy – discover exciting tours, check out our services, book your trips in minutes, and manage all your bookings.",
@@ -196,7 +212,7 @@ const projects = [
     github: "https://github.com/ShaYri12/tour-management",
   },
   {
-    num: "16",
+    num: "17",
     category: "frontend",
     title: "BusyBucket.io",
     description:
@@ -207,7 +223,7 @@ const projects = [
     github: "https://github.com/ShaYri12/busy-bucket-io",
   },
   {
-    num: "17",
+    num: "18",
     category: "frontend",
     title: "Credit SaaS DIY",
     description:
