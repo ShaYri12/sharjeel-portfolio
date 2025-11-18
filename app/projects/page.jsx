@@ -48,6 +48,22 @@ const projects = [
   {
     num: "04",
     category: "fullstack",
+    title: "Link Up",
+    description:
+      "A social platform for sharing posts, applying for jobs, chatting in real time, and personalizing profiles with custom themes.",
+    stack: [
+      { name: "React.js" },
+      { name: "Javascript" },
+      { name: "TailwindCSS" },
+      { name: "MongoDB" },
+    ],
+    image: "/assets/projects/link-up.png",
+    live: "https://linkup-lemon.vercel.app/",
+    github: "https://github.com/ShaYri12/Link-Up",
+  },
+  {
+    num: "05",
+    category: "fullstack",
     title: "Missing Activists",
     description:
       "It's a web app for managing missing persons information and connecting communities.",
@@ -62,7 +78,7 @@ const projects = [
     github: "https://github.com/ShaYri12/Missing-Activists",
   },
   {
-    num: "05",
+    num: "06",
     category: "frontend",
     title: "TopExpert",
     description:
@@ -77,7 +93,7 @@ const projects = [
     github: "https://github.com/ShaYri12/TopExpert",
   },
   {
-    num: "06",
+    num: "07",
     category: "frontend",
     title: "Kamelia Doors",
     description:
@@ -92,7 +108,7 @@ const projects = [
     github: "https://github.com/ShaYri12/kamelia-doors",
   },
   {
-    num: "07",
+    num: "08",
     category: "frontend",
     title: "Backdoor 3D",
     description:
@@ -103,7 +119,7 @@ const projects = [
     github: "https://github.com/ShaYri12/Backdoor-3D-Animations",
   },
   {
-    num: "08",
+    num: "09",
     category: "frontend",
     title: "Kontable",
     description:
@@ -114,7 +130,7 @@ const projects = [
     github: "https://github.com/ShaYri12/kontable",
   },
   {
-    num: "09",
+    num: "10",
     category: "frontend",
     title: "Fundi",
     description:
@@ -125,7 +141,7 @@ const projects = [
     github: "https://github.com/ShaYri12/fundi",
   },
   {
-    num: "10",
+    num: "11",
     category: "frontend",
     title: "QasimDaboul",
     description:
@@ -136,7 +152,7 @@ const projects = [
     github: "https://github.com/ShaYri12/QasimDaboul",
   },
   {
-    num: "11",
+    num: "12",
     category: "frontend",
     title: "Tract",
     description:
@@ -147,7 +163,7 @@ const projects = [
     github: "https://github.com/ShaYri12/Tract",
   },
   {
-    num: "12",
+    num: "13",
     category: "frontend",
     title: "Review Web with AI",
     description:
@@ -158,7 +174,7 @@ const projects = [
     github: "https://github.com/ShaYri12/web-review-with-ai",
   },
   {
-    num: "13",
+    num: "14",
     category: "frontend",
     title: "Orbiz",
     description:
@@ -169,7 +185,7 @@ const projects = [
     github: "https://github.com/ShaYri12/orbiz",
   },
   {
-    num: "14",
+    num: "15",
     category: "frontend",
     title: "LeaseGrid",
     description:
@@ -180,7 +196,7 @@ const projects = [
     github: "https://github.com/ShaYri12/LeaseGrid",
   },
   {
-    num: "15",
+    num: "16",
     category: "fullstack",
     title: "Fast Food",
     description:
@@ -196,7 +212,7 @@ const projects = [
     github: "https://github.com/ShaYri12/Fast-Food",
   },
   {
-    num: "16",
+    num: "17",
     category: "fullstack",
     title: "Travel World",
     description:
@@ -212,7 +228,7 @@ const projects = [
     github: "https://github.com/ShaYri12/tour-management",
   },
   {
-    num: "17",
+    num: "18",
     category: "frontend",
     title: "BusyBucket.io",
     description:
@@ -223,7 +239,7 @@ const projects = [
     github: "https://github.com/ShaYri12/busy-bucket-io",
   },
   {
-    num: "18",
+    num: "19",
     category: "frontend",
     title: "Credit SaaS DIY",
     description:
