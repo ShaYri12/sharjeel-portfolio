@@ -15,7 +15,7 @@ const projects = [
       "It's a Web3 crowdfunding platform for early crypto investments.",
     stack: [{ name: "React.js" }, { name: "TailwindCSS" }, { name: "Vite" }],
     image: "/assets/projects/block-boost.png",
-    live: "https://blockboost.io/",
+    live: "https://watzpaad-five.vercel.app/",
     github: "https://github.com/ShaYri12/Watzpaad",
   },
 
