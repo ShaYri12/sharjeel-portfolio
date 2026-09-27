@@ -10,6 +10,21 @@ const projects = [
   {
     num: "01",
     category: "frontend",
+    title: "Vytalyz",
+    description:
+      "A modern healthcare website with interactive assessments and personalized wellness experiences.",
+    stack: [
+      { name: "Next.js" },
+      { name: "TypeScript" },
+      { name: "Tailwind CSS" },
+    ],
+    image: "/assets/projects/vytalyz.png",
+    live: "https://vytalyz.vercel.app/",
+    github: "https://github.com/ShaYri12/vytalyz",
+  },
+  {
+    num: "01",
+    category: "frontend",
     title: "Block Boost",
     description:
       "It's a Web3 crowdfunding platform for early crypto investments.",
@@ -47,22 +62,37 @@ const projects = [
   },
   {
     num: "04",
-    category: "fullstack",
-    title: "Link Up",
+    category: "frontend",
+    title: "TopExpert",
     description:
-      "A social platform for sharing posts, applying for jobs, chatting in real time, and personalizing profiles with custom themes.",
+      "It connects users with top talent to turn their passion into a thriving business.",
     stack: [
-      { name: "React.js" },
-      { name: "Javascript" },
+      { name: "Next.js" },
+      { name: "TypeScript" },
       { name: "TailwindCSS" },
-      { name: "MongoDB" },
     ],
-    image: "/assets/projects/link-up.png",
-    live: "https://linkup-lemon.vercel.app/",
-    github: "https://github.com/ShaYri12/Link-Up",
+    image: "/assets/projects/topexpert.png",
+    live: "https://topexpert-chi.vercel.app/",
+    github: "https://github.com/ShaYri12/TopExpert",
   },
   {
     num: "05",
+    category: "frontend",
+    title: "LUMÉA",
+    description:
+      "A refined fragrance website featuring cinematic motion and immersive storytelling.",
+    stack: [
+      { name: "Next.js" },
+      { name: "TypeScript" },
+      { name: "Tailwind CSS" },
+      { name: "Motion" },
+    ],
+    image: "/assets/projects/lumea.png",
+    live: "https://lumea-zeta.vercel.app/",
+    github: "https://github.com/ShaYri12/lumea",
+  },
+  {
+    num: "06",
     category: "fullstack",
     title: "Missing Activists",
     description:
@@ -78,22 +108,39 @@ const projects = [
     github: "https://github.com/ShaYri12/Missing-Activists",
   },
   {
-    num: "06",
+    num: "26",
     category: "frontend",
-    title: "TopExpert",
+    title: "Elevana",
     description:
-      "It connects users with top talent to turn their passion into a thriving business.",
+      "A complete service provider experience with a business dashboard and integrated main website.",
     stack: [
       { name: "Next.js" },
+      { name: "React" },
       { name: "TypeScript" },
-      { name: "TailwindCSS" },
+      { name: "Tailwind CSS" },
     ],
-    image: "/assets/projects/topexpert.png",
-    live: "https://topexpert-chi.vercel.app/",
-    github: "https://github.com/ShaYri12/TopExpert",
+    image: "/assets/projects/elevana.png",
+    live: "https://customer-portal-zbw1.vercel.app/",
+    github: "https://github.com/vikramkumartejani/customer-portal",
   },
   {
     num: "07",
+    category: "fullstack",
+    title: "Link Up",
+    description:
+      "A social platform for sharing posts, applying for jobs, chatting in real time, and personalizing profiles with custom themes.",
+    stack: [
+      { name: "React.js" },
+      { name: "Javascript" },
+      { name: "TailwindCSS" },
+      { name: "MongoDB" },
+    ],
+    image: "/assets/projects/link-up.png",
+    live: "https://linkup-lemon.vercel.app/",
+    github: "https://github.com/ShaYri12/Link-Up",
+  },
+  {
+    num: "08",
     category: "frontend",
     title: "Kamelia Doors",
     description:
@@ -108,7 +155,7 @@ const projects = [
     github: "https://github.com/ShaYri12/kamelia-doors",
   },
   {
-    num: "08",
+    num: "09",
     category: "frontend",
     title: "Backdoor 3D",
     description:
@@ -119,7 +166,7 @@ const projects = [
     github: "https://github.com/ShaYri12/Backdoor-3D-Animations",
   },
   {
-    num: "09",
+    num: "10",
     category: "frontend",
     title: "Kontable",
     description:
@@ -130,7 +177,7 @@ const projects = [
     github: "https://github.com/ShaYri12/kontable",
   },
   {
-    num: "10",
+    num: "11",
     category: "frontend",
     title: "Fundi",
     description:
@@ -141,7 +188,23 @@ const projects = [
     github: "https://github.com/ShaYri12/fundi",
   },
   {
-    num: "11",
+    num: "24",
+    category: "frontend",
+    title: "Gastro",
+    description:
+      "A modern restaurant platform for discovering venues, managing offers, orders, and conversations.",
+    stack: [
+      { name: "Next.js" },
+      { name: "JavaScript" },
+      { name: "MUI" },
+      { name: "Tailwind CSS" },
+    ],
+    image: "/assets/projects/gastro.png",
+    live: "https://gastro-six.vercel.app/",
+    github: "https://github.com/ShaYri12/Gastro",
+  },
+  {
+    num: "12",
     category: "frontend",
     title: "QasimDaboul",
     description:
@@ -152,7 +215,7 @@ const projects = [
     github: "https://github.com/ShaYri12/QasimDaboul",
   },
   {
-    num: "12",
+    num: "13",
     category: "frontend",
     title: "Tract",
     description:
@@ -163,7 +226,7 @@ const projects = [
     github: "https://github.com/ShaYri12/Tract",
   },
   {
-    num: "13",
+    num: "14",
     category: "frontend",
     title: "Review Web with AI",
     description:
@@ -174,7 +237,23 @@ const projects = [
     github: "https://github.com/ShaYri12/web-review-with-ai",
   },
   {
-    num: "14",
+    num: "19",
+    category: "fullstack",
+    title: "Moji Gurukul",
+    description:
+      "A multilingual education platform with real-time features, authentication, and interactive learning.",
+    stack: [
+      { name: "Next.js" },
+      { name: "TypeScript" },
+      { name: "MUI" },
+      { name: "Socket.io" },
+    ],
+    image: "/assets/projects/moji-gurukul.png",
+    live: "https://mojinext-development.vercel.app/",
+    github: "https://github.com/ShaYri12/moji-guru-kul",
+  },
+  {
+    num: "15",
     category: "frontend",
     title: "Orbiz",
     description:
@@ -185,34 +264,7 @@ const projects = [
     github: "https://github.com/ShaYri12/orbiz",
   },
   {
-    num: "15",
-    category: "frontend",
-    title: "LeaseGrid",
-    description:
-      "It simplifies property management with tools for leases, tenants, payments, and maintenance.",
-    stack: [{ name: "Next.js" }, { name: "TailwindCSS" }],
-    image: "/assets/projects/lease-grid.png",
-    live: "https://lease-grid-xi.vercel.app/",
-    github: "https://github.com/ShaYri12/LeaseGrid",
-  },
-  {
-    num: "16",
-    category: "fullstack",
-    title: "Fast Food",
-    description:
-      "A fast food website where users can browse, order, and manage their cart, while admins can manage foods and users with full control.",
-    stack: [
-      { name: "React.js" },
-      { name: "MongoDB" },
-      { name: "Express.js" },
-      { name: "BootstrapCSS" },
-    ],
-    image: "/assets/projects/fast-food.png",
-    live: "https://fast-food-gamma.vercel.app/",
-    github: "https://github.com/ShaYri12/Fast-Food",
-  },
-  {
-    num: "17",
+    num: "18",
     category: "fullstack",
     title: "Travel World",
     description:
@@ -228,7 +280,146 @@ const projects = [
     github: "https://github.com/ShaYri12/tour-management",
   },
   {
+    num: "19",
+    category: "fullstack",
+    title: "Fast Food",
+    description:
+      "A fast food website where users can browse, order, and manage their cart, while admins can manage foods and users with full control.",
+    stack: [
+      { name: "React.js" },
+      { name: "MongoDB" },
+      { name: "Express.js" },
+      { name: "BootstrapCSS" },
+    ],
+    image: "/assets/projects/fast-food.png",
+    live: "https://fast-food-gamma.vercel.app/",
+    github: "https://github.com/ShaYri12/Fast-Food",
+  },
+  {
+    num: "25",
+    category: "fullstack",
+    title: "AMER247",
+    description:
+  "An immigration services platform for online visa, residency, Emirates ID, and government applications.",
+    stack: [
+      { name: "Next.js" },
+      { name: "TypeScript" },
+      { name: "Tailwind CSS" },
+      { name: "Nodemailer" },
+      { name: "SendGrid" },
+      { name: "Axios" },
+    ],
+    image: "/assets/projects/amer247.png",
+    live: "https://amer247-seven.vercel.app/",
+    github: "https://github.com/ShaYri12/amer247",
+  },
+  {
+    num: "16",
+    category: "frontend",
+    title: "LeaseGrid",
+    description:
+      "It simplifies property management with tools for leases, tenants, payments, and maintenance.",
+    stack: [{ name: "Next.js" }, { name: "TailwindCSS" }],
+    image: "/assets/projects/lease-grid.png",
+    live: "https://lease-grid-xi.vercel.app/en",
+    github: "https://github.com/ShaYri12/LeaseGrid",
+  },
+  {
+    num: "17",
+    category: "frontend",
+    title: "Sevenforce Moldova",
+    description:
+      "A premium automotive website with interactive services, cost estimation, and performance insights.",
+    stack: [
+      { name: "Next.js" },
+      { name: "TypeScript" },
+      { name: "Tailwind CSS" },
+    ],
+    image: "/assets/projects/sevenforce-moldova.png",
+    live: "https://sevenforce-moldova.vercel.app/",
+    github: "https://github.com/ShaYri12/sevenforce-moldova",
+  },
+  {
     num: "18",
+    category: "frontend",
+    title: "ABMize",
+    description:
+      "A modern youth entrepreneurship platform showcasing programs, mentorship, and career pathways.",
+    stack: [
+      { name: "HTML5" },
+      { name: "CSS3" },
+      { name: "JavaScript" },
+    ],
+    image: "/assets/projects/abmize.png",
+    live: "https://abm-pi.vercel.app/",
+    github: "https://github.com/ShaYri12/ABM",
+  },
+  {
+    num: "19",
+    category: "frontend",
+    title: "Atlas Event",
+    description:
+      "A modern event platform combining discovery, creation, and seamless event management.",
+    stack: [
+      { name: "Next.js" },
+      { name: "JavaScript" },
+      { name: "Tailwind CSS" },
+      { name: "Swiper.js" },
+    ],
+    image: "/assets/projects/atlas-event.png",
+    live: "https://atlas-event-khaki.vercel.app/",
+    github: "https://github.com/ShaYri12/atlas-event",
+  },
+  {
+    num: "20",
+    category: "frontend",
+    title: "Green Energy",
+    description:
+      "A modern energy company website showcasing oil & gas, MEP, and HVAC services.",
+    stack: [
+      { name: "Next.js" },
+      { name: "JavaScript" },
+      { name: "Tailwind CSS" },
+      { name: "AOS" },
+    ],
+    image: "/assets/projects/green-energy.png",
+    live: "https://green-energy-website-chi.vercel.app/",
+    github: "https://github.com/ShaYri12/green-energy-website",
+  },
+  {
+    num: "22",
+    category: "frontend",
+    title: "ApexBank",
+    description:
+      "A modern banking dashboard with analytics, transactions, and investment tracking.",
+    stack: [
+      { name: "Next.js" },
+      { name: "React" },
+      { name: "Tailwind CSS" },
+      { name: "shadcn/ui" },
+    ],
+    image: "/assets/projects/apex-bank.png",
+    live: "https://apex-bank-seven.vercel.app/",
+    github: "https://github.com/ShaYri12/ApexBank",
+  },
+  {
+    num: "23",
+    category: "frontend",
+    title: "Himachal Trips",
+    description:
+      "A modern tourism website for exploring destinations, tour packages, and bookings.",
+    stack: [
+      { name: "Next.js" },
+      { name: "React" },
+      { name: "CSS Modules" },
+      { name: "Swiper.js" },
+    ],
+    image: "/assets/projects/himachal-trips.png",
+    live: "https://himachal-trips-six.vercel.app/",
+    github: "https://github.com/ShaYri12/himachal-trips",
+  },
+  {
+    num: "20",
     category: "frontend",
     title: "BusyBucket.io",
     description:
@@ -239,7 +430,68 @@ const projects = [
     github: "https://github.com/ShaYri12/busy-bucket-io",
   },
   {
-    num: "19",
+    num: "21",
+    category: "frontend",
+    title: "Money Mitra",
+    description:
+      "A modern financial platform for exploring loans, insurance, investments, and credit cards.",
+    stack: [
+      { name: "Next.js" },
+      { name: "JavaScript" },
+      { name: "Tailwind CSS" },
+    ],
+    image: "/assets/projects/money-mitra.png",
+    live: "https://money-mitra-self.vercel.app/",
+    github: "https://github.com/ShaYri12/money-mitra",
+  },
+  {
+    num: "22",
+    category: "frontend",
+    title: "Apex Modern",
+    description:
+      "A modern clothing manufacturing website with advanced inquiry forms and interactive product experiences.",
+    stack: [
+      { name: "Next.js" },
+      { name: "TypeScript" },
+      { name: "Tailwind CSS" },
+    ],
+    image: "/assets/projects/apex-modern.png",
+    live: "https://apex-modern-design.vercel.app/",
+    github: "https://github.com/ShaYri12/apex-modern-design",
+  },
+  {
+    num: "23",
+    category: "frontend",
+    title: "ServerStatsBots",
+    description:
+      "A Discord bot platform for real-time server statistics and customizable counters.",
+    stack: [
+      { name: "Next.js" },
+      { name: "TypeScript" },
+      { name: "Tailwind CSS" },
+    ],
+    image: "/assets/projects/server-stats-bots.png",
+    live: "https://serverstats.bot/",
+    github: "https://github.com/ShaYri12/ServerStatsBot",
+  },
+  {
+    num: "25",
+    category: "frontend",
+    title: "Mascot",
+    description:
+      "A modern fitness app landing page with guided runs, smooth animations, and responsive design.",
+    stack: [
+      { name: "Next.js" },
+      { name: "React" },
+      { name: "Tailwind CSS" },
+      { name: "JavaScript" },
+    ],
+    image: "/assets/projects/mascot.png",
+    live: "https://mascot-six.vercel.app/",
+    github: "https://github.com/ShaYri12/Mascot",
+  },
+  {
+    num: "24",
     category: "frontend",
     title: "Credit SaaS DIY",
     description:
@@ -268,7 +520,7 @@ const Projects = () => {
               className="relative group rounded-xl overflow-hidden shadow-lg"
             >
               {/* Image */}
-              <div className="relative w-full h-[200px]">
+              <div className="relative w-full h-[210px]">
                 <Image
                   src={project.image}
                   alt={project.title}
@@ -281,7 +533,7 @@ const Projects = () => {
               </div>
 
               {/* Project Content */}
-              <div className="absolute bottom-0 left-0 right-0 p-4 bg-black/95 text-white rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <div className="absolute bottom-0 left-0 right-0 p-4 h-full backdrop-blur-md bg-black/75 text-white rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <h3 className="font-bold text-lg">{project.title}</h3>
                 <p className="text-sm mt-2 text-white/80 line-clamp-3">
                   {project.description}
