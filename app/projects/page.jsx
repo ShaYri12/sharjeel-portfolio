@@ -23,7 +23,7 @@ const projects = [
     github: "https://github.com/ShaYri12/vytalyz",
   },
   {
-    num: "01",
+    num: "02",
     category: "frontend",
     title: "Block Boost",
     description:
@@ -35,7 +35,7 @@ const projects = [
   },
 
   {
-    num: "02",
+    num: "03",
     category: "fullstack",
     title: "HealthFare",
     description:
@@ -46,7 +46,7 @@ const projects = [
     github: "https://github.com/ShaYri12/HealthFare",
   },
   {
-    num: "03",
+    num: "04",
     category: "frontend",
     title: "NUIIX",
     description:
@@ -61,7 +61,7 @@ const projects = [
     github: "https://github.com/ShaYri12/NUIIX",
   },
   {
-    num: "04",
+    num: "05",
     category: "frontend",
     title: "TopExpert",
     description:
@@ -76,7 +76,7 @@ const projects = [
     github: "https://github.com/ShaYri12/TopExpert",
   },
   {
-    num: "05",
+    num: "06",
     category: "frontend",
     title: "LUMÉA",
     description:
@@ -90,38 +90,6 @@ const projects = [
     image: "/assets/projects/lumea.png",
     live: "https://lumea-zeta.vercel.app/",
     github: "https://github.com/ShaYri12/lumea",
-  },
-  {
-    num: "06",
-    category: "fullstack",
-    title: "Missing Activists",
-    description:
-      "It's a web app for managing missing persons information and connecting communities.",
-    stack: [
-      { name: "Next.js" },
-      { name: "TypeScript" },
-      { name: "MongoDB" },
-      { name: "TailwindCSS" },
-    ],
-    image: "/assets/projects/missing-activists.png",
-    live: "https://missing-activists-navy.vercel.app/",
-    github: "https://github.com/ShaYri12/Missing-Activists",
-  },
-  {
-    num: "26",
-    category: "frontend",
-    title: "Elevana",
-    description:
-      "A complete service provider experience with a business dashboard and integrated main website.",
-    stack: [
-      { name: "Next.js" },
-      { name: "React" },
-      { name: "TypeScript" },
-      { name: "Tailwind CSS" },
-    ],
-    image: "/assets/projects/elevana.png",
-    live: "https://customer-portal-zbw1.vercel.app/",
-    github: "https://github.com/vikramkumartejani/customer-portal",
   },
   {
     num: "07",
@@ -142,6 +110,54 @@ const projects = [
   {
     num: "08",
     category: "frontend",
+    title: "VORN AI",
+    description:
+      "A next-generation web platform combining AI, decentralized infrastructure, and real-world asset tokenization.",
+    stack: [
+      { name: "Next.js" },
+      { name: "TypeScript" },
+      { name: "TailwindCSS" },
+      { name: "i18next" },
+    ],
+    image: "/assets/projects/vorn-ai.png",
+    live: "https://vorn-ai.vercel.app/en",
+    github: "https://github.com/vikramkumartejani/VORN-AI",
+  },
+  {
+    num: "09",
+    category: "frontend",
+    title: "Elevana",
+    description:
+      "A complete service provider experience with a business dashboard and integrated main website.",
+    stack: [
+      { name: "Next.js" },
+      { name: "React" },
+      { name: "TypeScript" },
+      { name: "Tailwind CSS" },
+    ],
+    image: "/assets/projects/elevana.png",
+    live: "https://customer-portal-zbw1.vercel.app/",
+    github: "https://github.com/vikramkumartejani/customer-portal",
+  },
+  {
+    num: "10",
+    category: "fullstack",
+    title: "Missing Activists",
+    description:
+      "It's a web app for managing missing persons information and connecting communities.",
+    stack: [
+      { name: "Next.js" },
+      { name: "TypeScript" },
+      { name: "MongoDB" },
+      { name: "TailwindCSS" },
+    ],
+    image: "/assets/projects/missing-activists.png",
+    live: "https://missing-activists-navy.vercel.app/",
+    github: "https://github.com/ShaYri12/Missing-Activists",
+  },
+  {
+    num: "11",
+    category: "frontend",
     title: "Kamelia Doors",
     description:
       "It helps you build your dream home interior with custom doors and precise measurements.",
@@ -155,7 +171,7 @@ const projects = [
     github: "https://github.com/ShaYri12/kamelia-doors",
   },
   {
-    num: "09",
+    num: "12",
     category: "frontend",
     title: "Backdoor 3D",
     description:
@@ -166,7 +182,7 @@ const projects = [
     github: "https://github.com/ShaYri12/Backdoor-3D-Animations",
   },
   {
-    num: "10",
+    num: "13",
     category: "frontend",
     title: "Kontable",
     description:
@@ -177,7 +193,7 @@ const projects = [
     github: "https://github.com/ShaYri12/kontable",
   },
   {
-    num: "11",
+    num: "14",
     category: "frontend",
     title: "Fundi",
     description:
@@ -188,7 +204,7 @@ const projects = [
     github: "https://github.com/ShaYri12/fundi",
   },
   {
-    num: "24",
+    num: "15",
     category: "frontend",
     title: "Gastro",
     description:
@@ -204,7 +220,7 @@ const projects = [
     github: "https://github.com/ShaYri12/Gastro",
   },
   {
-    num: "12",
+    num: "16",
     category: "frontend",
     title: "QasimDaboul",
     description:
@@ -215,7 +231,7 @@ const projects = [
     github: "https://github.com/ShaYri12/QasimDaboul",
   },
   {
-    num: "13",
+    num: "17",
     category: "frontend",
     title: "Tract",
     description:
@@ -226,7 +242,7 @@ const projects = [
     github: "https://github.com/ShaYri12/Tract",
   },
   {
-    num: "14",
+    num: "18",
     category: "frontend",
     title: "Review Web with AI",
     description:
@@ -253,7 +269,7 @@ const projects = [
     github: "https://github.com/ShaYri12/moji-guru-kul",
   },
   {
-    num: "15",
+    num: "20",
     category: "frontend",
     title: "Orbiz",
     description:
@@ -264,7 +280,7 @@ const projects = [
     github: "https://github.com/ShaYri12/orbiz",
   },
   {
-    num: "18",
+    num: "21",
     category: "fullstack",
     title: "Travel World",
     description:
@@ -280,7 +296,7 @@ const projects = [
     github: "https://github.com/ShaYri12/tour-management",
   },
   {
-    num: "19",
+    num: "22",
     category: "fullstack",
     title: "Fast Food",
     description:
@@ -296,7 +312,7 @@ const projects = [
     github: "https://github.com/ShaYri12/Fast-Food",
   },
   {
-    num: "25",
+    num: "23",
     category: "fullstack",
     title: "AMER247",
     description:
@@ -314,7 +330,7 @@ const projects = [
     github: "https://github.com/ShaYri12/amer247",
   },
   {
-    num: "16",
+    num: "24",
     category: "frontend",
     title: "LeaseGrid",
     description:
@@ -325,7 +341,7 @@ const projects = [
     github: "https://github.com/ShaYri12/LeaseGrid",
   },
   {
-    num: "17",
+    num: "25",
     category: "frontend",
     title: "Sevenforce Moldova",
     description:
@@ -340,7 +356,7 @@ const projects = [
     github: "https://github.com/ShaYri12/sevenforce-moldova",
   },
   {
-    num: "18",
+    num: "26",
     category: "frontend",
     title: "ABMize",
     description:
@@ -355,7 +371,7 @@ const projects = [
     github: "https://github.com/ShaYri12/ABM",
   },
   {
-    num: "19",
+    num: "27",
     category: "frontend",
     title: "Atlas Event",
     description:
@@ -371,7 +387,7 @@ const projects = [
     github: "https://github.com/ShaYri12/atlas-event",
   },
   {
-    num: "20",
+    num: "28",
     category: "frontend",
     title: "Green Energy",
     description:
@@ -387,7 +403,7 @@ const projects = [
     github: "https://github.com/ShaYri12/green-energy-website",
   },
   {
-    num: "22",
+    num: "29",
     category: "frontend",
     title: "ApexBank",
     description:
@@ -403,7 +419,7 @@ const projects = [
     github: "https://github.com/ShaYri12/ApexBank",
   },
   {
-    num: "23",
+    num: "30",
     category: "frontend",
     title: "Himachal Trips",
     description:
@@ -419,7 +435,7 @@ const projects = [
     github: "https://github.com/ShaYri12/himachal-trips",
   },
   {
-    num: "20",
+    num: "31",
     category: "frontend",
     title: "BusyBucket.io",
     description:
@@ -430,7 +446,7 @@ const projects = [
     github: "https://github.com/ShaYri12/busy-bucket-io",
   },
   {
-    num: "21",
+    num: "32",
     category: "frontend",
     title: "Money Mitra",
     description:
@@ -445,7 +461,7 @@ const projects = [
     github: "https://github.com/ShaYri12/money-mitra",
   },
   {
-    num: "22",
+    num: "33",
     category: "frontend",
     title: "Apex Modern",
     description:
@@ -460,7 +476,7 @@ const projects = [
     github: "https://github.com/ShaYri12/apex-modern-design",
   },
   {
-    num: "23",
+    num: "34",
     category: "frontend",
     title: "ServerStatsBots",
     description:
@@ -475,7 +491,7 @@ const projects = [
     github: "https://github.com/ShaYri12/ServerStatsBot",
   },
   {
-    num: "25",
+    num: "35",
     category: "frontend",
     title: "Mascot",
     description:
@@ -491,7 +507,7 @@ const projects = [
     github: "https://github.com/ShaYri12/Mascot",
   },
   {
-    num: "24",
+    num: "36",
     category: "frontend",
     title: "Credit SaaS DIY",
     description:
